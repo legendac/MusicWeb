@@ -4,6 +4,10 @@ Music Web connects you to composers of different era. It is designed for users t
 
 Being built on Semantic Web Technologies, it strives to keep users updated with popular articles off Wikipedia and interactive audio from YouTube.
 
+
+A video of the working application is shown here - <https://www.youtube.com/watch?v=0CZT23sFdiM>
+
+
 ### Requirements
 
 To get this thing up and running on a local machine, you need the following:
@@ -26,8 +30,9 @@ Once everything is ready:
 * start Express Node.js server with `gulp`,
 * start your Stardog server with `stardog-admin server start`
 
+
+
 The web app is then running at <http://localhost:5000>, Stardog running at <http://localhost:5820> .
 
-A Video of the Working Application is shown here -->  <https://www.youtube.com/watch?v=0CZT23sFdiM>
 
 Kudos to Rinke Hoekstra for his assistance along the way.

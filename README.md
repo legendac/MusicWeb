@@ -30,8 +30,10 @@ Once everything is ready:
 * start your Stardog server with `stardog-admin server start`
 
 
-
+###Runtime
 The web app is then running at <http://localhost:5000>, Stardog running at <http://localhost:5820> .
 
 
 Kudos to Rinke Hoekstra for his assistance along the way.
+
+Design and Concept by Adam Chee

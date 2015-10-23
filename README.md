@@ -23,11 +23,11 @@ To get this thing up and running on a local machine, you need the following:
 Once everything is ready:
 
 <In Terminal or Command Prompt>
-* start your Stardog server with `stardog-admin server start`,
-* start express node.js server with `gulp`
-
+* start Express Node.js server with `gulp`,
+* start your Stardog server with `stardog-admin server start`
 
 The web app is then running at <http://localhost:5000>, Stardog running at <http://localhost:5820> .
 
+A Video of the Working Application is shown here -->  <https://www.youtube.com/watch?v=0CZT23sFdiM>
 
 Kudos to Rinke Hoekstra for his assistance along the way.

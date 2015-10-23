@@ -16,13 +16,12 @@ To get this thing up and running on a local machine, you need the following:
 * bower install
 * A recent Stardog installation (with license located in MusicWeb root folder)
   * MusicWeb folder in the directory is a Stardog database file. In the case the database is not seen on <http://localhost:5820/MusicWeb>, please perform the database setup with the steps below.
-	  * The script assumes a Stardog database with the name 'MusicWeb' running at <http://localhost:5820/tutorial> (security disabled).
-	  	<Stardog Config>
-  	* visit Stardog running at <http://localhost:5820>
-  	* create a new database and name it "MusicWeb", set "Reasoning Type" to 'SL', "SameAs Reasoning" to 'FULL'.
-  	* upload 'MusicWeb.ttl' from the Ontology folder
-	 
-	  * If you want to use a different name or location (i.e. not running on localhost, port 5820) you need to change this within index.js.
+	  
+<Stardog Config>
+  * visit Stardog running at <http://localhost:5820>
+  * create a new database and name it "MusicWeb", set "Reasoning Type" to 'SL', "SameAs Reasoning" to 'FULL'.
+  * upload 'MusicWeb.ttl' from the Ontology folder
+  * If you want to use a different name or location (i.e. not running on localhost, port 5820) you need to change this within index.js.
 
 Once everything is ready:
 

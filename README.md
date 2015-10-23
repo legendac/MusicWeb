@@ -5,7 +5,7 @@ Music Web connects you to composers of different era. It is designed for users t
 Being built on Semantic Web Technologies, it strives to keep users updated with popular articles off Wikipedia and interactive audio from YouTube.
 
 
-A video of the working application is shown here - <https://www.youtube.com/watch?v=0CZT23sFdiM>
+A video of the working application is shown here - <https://youtu.be/gYZoog8b3XY>
 
 
 ### Requirements

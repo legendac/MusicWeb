@@ -1,0 +1,35 @@
+{
+  "name": "MusicWeb",
+  "version": "1.0.0",
+  "description": "Giving some love to our dear composers",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/music-web.git"
+  },
+  "keywords": [
+    "music",
+    "composer",
+    "musicweb",
+    "music by era",
+    "music history"
+  ],
+  "author": "Adam",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.12.3",
+    "gulp": "^3.8.11",
+    "node": "0.0.0",
+    "npm": "^2.9.1",
+    "stardog": "^0.3.1"
+  },
+  "devDependencies": {
+    "debug": "^2.2.0",
+    "ember-cli": "^1.13.8",
+    "gulp-nodemon": "^2.0.4",
+    "serve-favicon": "^2.3.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}

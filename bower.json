@@ -1,0 +1,26 @@
+{
+  "name": "lotusmetal",
+  "version": "0.0.0",
+  "authors": [
+    "adamctj <adamctj@gmail.com>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "lotus",
+    "metal",
+    "singapore",
+    "thailand",
+    "stainless",
+    "steel"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap-sass-official": "~3.3.4",
+    "fontawesome": "~4.3.0",
+    "jquery.easing": "~1.3.1",
+    "jquery-smooth-scroll": "~1.5.5",
+    "ember": "~1.11.3"
+  }
+}

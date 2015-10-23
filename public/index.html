@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Music Web</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/grayscale.css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <style>
+    /*    colorRed {
+        color: #e74c3c;
+    }
+    
+    colorGreen {
+        color: #2ecc71;
+    }
+    
+    colorDarkBlue {
+        color: #34495e;
+    }
+    
+    body {
+        background-color: #f1c40f;
+        color: #34495e;
+    }
+    
+    h1 {
+        color: maroon;
+        margin-left: 40px;
+    }*/
+    /*.jumbotron {
+    background-color: #e74c3c;
+}*/
+    </style>
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#">
+                    <i class="fa fa-play-circle"></i> <span class="light">Music</span> Web
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#genre">Genre</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#composer">Composer</a>
+                    </li>
+                    <!-- <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#download">Download</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li> -->
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h2 class="brand-heading">Music Web</h2>
+                        <p class="intro-text">Giving love to our dear Composers and Musicians
+                            <br>
+                        </p>
+                        <a href="#genre" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                        </br></br></br></br></br></br>
+                        <span class="pull-right"><h5><span id="design">Design and Concept by </span></br>Adam Chee Tze Jean</h5></span>
+                    </div>
+                </div>
+                <div class="row footer">
+                    
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--     <div class="jumbotron" id="testheader" >
+        <div class='container'>
+            <h1><colorDarkBlue><strong>Music</strong></colorDarkBlue> Web</h1>
+            <p>Giving love to our dear Composers and Musicians</p>
+            <p>Our server is running at <code>{{ url_for('first_page', _external=True) }}</code></p>
+        </div>
+    </div> -->
+    <div class="container-fluid" id="genre">
+        <div class="row genre-content">
+            <div class="col-sm-3">
+                <a class="nav-tabs-dropdown btn btn-block btn-primary">Music Era</a>
+                <ul id="nav-tabs-wrapper" class="nav nav-tabs nav-pills nav-stacked well">
+                    <li class="allRoundFamous active"><a href="#allTimeTab" data-toggle="tab">All-Time</a></li>
+                    <li class="getFamous"><a href="#medievalTab" data-toggle="tab">Medieval</a></li>
+                    <li class="getFamous"><a href="#renaissanceTab" data-toggle="tab">Renaissance</light></a></li>
+                    <li class="getFamous"><a href="#baroqueTab" data-toggle="tab">Baroque</light></a></li>
+                    <li class="getFamous"><a href="#classicalTab" data-toggle="tab">Classical</light></a></li>
+                    <li class="getFamous"><a href="#romanticTab" data-toggle="tab">Romantic</a></li>
+                    <li class="getFamous"><a href="#modernTab" data-toggle="tab">Modern</light></a></li>
+                    <li class="getFamous"><a href="#postModernTab" data-toggle="tab">PostModern</light></a></li>
+                </ul>
+            </div>
+            <div class="col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+                <div class="sidebar-nav" id="composer-selection-nav">
+                </div>
+                <!--/.well -->
+            </div>
+            <!--/span-->
+            <div class="col-sm-6">
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane fade in active" id="allTimeTab">
+                        <h2>Time Travel back to a specific Era  </h2>
+                        <p>
+                            Our musical history goes all the way back to the Medieval times...</br>
+                            </br>We wish to bring you back in time to understand the circumstances a particular <strong>Artist </strong> has lived through his life, provide reference on the Masterpieces and images which have left a mark on this planet.
+                            </br>
+                            </br>
+                        </p>
+                        
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="medievalTab">
+                        <h3>Medieval Era</h3>
+                        <p>
+                            Medieval music is Western music written during the Middle Ages. This era begins with the fall of the Roman Empire in the fifth century and ends sometime in the early fifteenth century. Establishing the end of the medieval era and the beginning of the Renaissance is difficult; the usage in this article is the one usually adopted by musicologists.
+                        </p>
+                        </br>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="renaissanceTab">
+                        <h3>Renaissance Era</h3>
+                        <p>
+                            Renaissance means rebirth. They were interested in Ancient Greece and Rome. There were many voyages of discovery, and scientific advances. Music, increasingly freed from medieval constraints, in range, rhythm, harmony, form, and notation, became a vehicle for new personal expression. Composers found ways to make music expressive of the texts they were setting. Secular music absorbed techniques from sacred music, and vice versa. Popular secular forms such as the chanson and madrigal spread throughout Europe.
+                        </p>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade in" id="baroqueTab">
+                        <h3>Baroque Era</h3>
+                        <p>
+                            Baroque music is a style of music composed from approximately 1600 to 1750. This era followed the Renaissance, and was followed in turn by the Classical era. The word "baroque" comes from the Portuguese word barroco, meaning misshapen pearl,. The negative use of the word comes from a description by Charles de Brosses of the ornate and heavily ornamented architecture of the Pamphili Palace in Rome. Although the term was applied to architecture and art criticism in the 19th century, it wasn't until the 20th century that the term "baroque" was applied to music.
+                        </p>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade in" id="classicalTab">
+                        <h3>Classical Era</h3>
+                        <p>
+                            The dates of the Classical period in Western music are generally accepted as being between about 1750 and 1820. However, the term classical music is used in a colloquial sense as a synonym for Western art music, which describes a variety of Western musical styles from the ninth century to the present, and especially from the sixteenth or seventeenth to the nineteenth. This article is about the specific period from 1730 to 1820.
+                        </p>
+                        
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade in" id="romanticTab">
+                        <h3>Romantic Era</h3>
+                        <p>
+                            Romantic music is a term denoting an era of Western classical music that began in the late 18th or early 19th century. It was related to Romanticism, the European artistic and literary movement that arose in the second half of the 18th century, and Romantic music in particular dominated the Romantic movement in Germany.
+                        </p>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade in" id="modernTab">
+                        <h3>Modern Era</h3>
+                        <p>
+                            In music, modernism is a philosophical and aesthetic stance underlying the period of change and development in musical language that occurred around the turn of the 20th century, a period of diverse reactions in challenging and reinterpreting older categories of music, innovations that lead to new ways of organizing and approaching harmonic, melodic, sonic, and rhythmic aspects of music, and changes in aesthetic worldviews in close relation to the larger identifiable period of modernism in the arts of the time. The operative word most associated with it is "innovation" (Metzer 2009, 3). Its leading feature is a "linguistic plurality", which is to say that no one music genre ever assumed a dominant position (Morgan 1984, 443).
+                        </p>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade in" id="postModernTab">
+                        <h3>Postmodern Era</h3>
+                        <p>
+                            Postmodern music is not a distinct musical style, but rather refers to music of the postmodern era. The terms "postmodern", "postmodernism", "postmodernist", and "postmodernity" are exasperating terms (Bertens 1995, 3).
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- 
+            <div class="col-sm-3">
+                <a class="nav-tabs-dropdown btn btn-block btn-primary">Music Era</a>
+                <ul id="nav-tabs-wrapper" class="nav nav-tabs nav-pills nav-stacked well">
+                  <li class="getFamous active"><a href="#allTimeTab" data-toggle="tab">All-Time</a></li>
+                  <li class="getFamous"><a href="#medievalTab" data-toggle="tab">Medieval</a></li>
+                  <li class="getFamous"><a href="#renaissanceTab" data-toggle="tab">Renaissance</light></a></li>
+                  <li class="getFamous"><a href="#baroqueTab" data-toggle="tab">Baroque</light></a></li>
+                  <li class="getFamous"><a href="#classicalTab" data-toggle="tab">Classical</light></a></li>
+                  <li class="getFamous"><a href="#romanticTab" data-toggle="tab">Romantic</a></li>
+                  <li class="getFamous"><a href="#modernTab" data-toggle="tab">Modern</light></a></li>
+                  <li class="getFamous"><a href="#postModernTab" data-toggle="tab">Postmodern</light></a></li>
+                </ul>
+            </div> -->
+        </div>
+        <!--/row-->
+    </div>
+    <div class="container-fluid" id="composer">
+        <div class="row composer-content">
+            <div class="col-sm-6 composer-col">
+                <h2>Composer</h2>
+                <div id="composer-wiki-parent">
+                    <div id="composer-wiki">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6" id="media-view">
+                <div class="container">
+                    <h2>YouTube</h2>
+                    <div id="composer-youtube">
+                        <div id="player"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <!-- <h2>Instagram</h2> -->
+                    <div class="row" id="instafeed">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <!-- 
+      
+        <!-- About Section -->
+    <!-- <!-- 
+        <section id="about" class="container content-section text-center">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>About Grayscale</h2>
+                    <p>Grayscale is a free Bootstrap 3 theme created by Start Bootstrap. It can be yours right now, simply download the template on <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
+                    <p>This theme features stock photos by <a href="http://gratisography.com/">Gratisography</a> along with a custom Google Maps skin courtesy of <a href="http://snazzymaps.com/">Snazzy Maps</a>.</p>
+                    <p>Grayscale includes full HTML, CSS, and custom JavaScript files along with LESS files for easy customization.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Download Section -->
+    <!-- <section id="download" class="content-section text-center">
+            <div class="download-section">
+                <div class="container">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <h2>Download Grayscale</h2>
+                        <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
+                        <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+    <!-- Contact Section -->
+    <!-- <section id="contact" class="container content-section text-center">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Contact Start Bootstrap</h2>
+                    <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
+                    <p><a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a>
+                    </p>
+                    <ul class="list-inline banner-social-buttons">
+                        <li>
+                            <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section> -->
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/grayscale.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+    // $('iframe').attr('scrolling','no').css({'overflow':'hidden'});
+
+    // $(window).scroll(function(){
+    //     var st = $(this).scrollTop();
+    //     if(st + $(window).height() == $(document).height()){
+    //        $('iframe').attr('scrolling','yes').css({'overflow':'auto'});   
+    //     }
+    // });
+
+
+    // 2. This code loads the IFrame Player API code asynchronously.
+
+    var tag = document.createElement('script');
+
+    tag.src = "https://www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+    // 3. This function creates an <iframe> (and YouTube player)
+    //    after the API code downloads.
+    var player;
+
+    function onYouTubeIframeAPIReady() {
+        var playerWidth = $("#media-view").width(); // - 100) / 2;
+        console.log(playerWidth);
+        var playerHeight = playerWidth / 16 * 9;
+
+
+        player = new YT.Player('player', {
+            width: playerWidth,
+            height: playerHeight,
+
+            events: {
+                'onReady': onPlayerReady,
+                'onStateChange': onPlayerStateChange,
+                'onError': onError
+            }
+        });
+    }
+
+    function onPlayerReady(event) {
+        event.target.playVideo();
+        // player.cuePlaylist({
+        //     listType: 'search',
+        //     list: 'Wolfgang Amadeus Mozart',
+        //     suggestedQuality: 'hd720'
+        //     // 'default' no longer works, but others do http://goo.gl/Ua6gEU
+        // });
+
+    }
+
+    function onError(event) {
+        console.log(event);
+    }
+
+    // 5. The API calls this function when the player's state changes.
+    //    The function indicates that when playing a video (state=1),
+    //    the player should play for six seconds and then stop.
+    var done = false;
+    // function onPlayerStateChange(event) {
+    //   if (event.data == YT.PlayerState.PLAYING && !done) {
+    //     setTimeout(stopVideo, 6000);
+    //     done = true;
+    //   }
+    // }
+    function playVideo() {
+        player.playVideo();
+    }
+
+    function stopVideo() {
+        player.stopVideo();
+    }
+
+    function loadPlayListToYouTube(resourceString) {
+        var resource = resourceString.split('_').join(" ");
+        console.log(resource);
+        player.cuePlaylist({
+            listType: 'search',
+            list: resource,
+            suggestedQuality: 'hd720'
+        });
+
+        //player.playVideo();
+    }
+
+    function onPlayerStateChange(event) {
+        // if (event.data == YT.PlayerState.PLAYING && !done) {
+        //   setTimeout(stopVideo, 6000);
+        //   done = true;
+        // }
+
+        if (player.getPlayerState() == 5) {
+            playVideo();
+        }
+    }
+
+    $(document).on('click', '.composer-item a', function() {
+        //alert ('anchor ' + this.id + ' clicked');
+        console.log(this.id);
+        // var composerWikiPage = '/wiki?wiki=' + this.id;
+        // $.get(composerWikiPage, function(data) {
+        //     $("#composer-wiki").html(data);
+
+        loadPlayListToYouTube(this.id);
+        // });
+
+        var urlString = "https://en.m.wikipedia.org/wiki/" + this.id;
+        $('#composer-wiki-parent').html('<iframe src=\"' + urlString + '\" id="composer-wiki-iframe"></iframe>');
+
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: $('#composer').offset().top
+        }, 1500, 'easeInOutExpo');
+        event.preventDefault();
+
+        playVideo();
+    });
+    </script>
+</body>
+</head>

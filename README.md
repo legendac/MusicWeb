@@ -16,7 +16,7 @@ To get this thing up and running on a local machine, you need the following:
 	  	<Stardog Config>
   	* visit Stardog running at <http://localhost:5820>
   	* create a new database and name it "MusicWeb", set "Reasoning Type" to 'SL', "SameAs Reasoning" to 'FULL'.
-  	* upload 'AmsBurger-merged3.owl' from the Ontology folder
+  	* upload 'MusicWeb.ttl' from the Ontology folder
 	 
 	  * If you want to use a different name or location (i.e. not running on localhost, port 5820) you need to change this within index.js.
 
